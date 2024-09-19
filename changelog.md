@@ -1,3 +1,8 @@
+# 8.2
+
+- **Feature:** EC2 instances can be supplied metadata options through `var.bastion_metadata_options`
+- **Change:** Increment required terraform version to >= 1.3.0
+
 # 8.1
 
 - **Feature:** Make default permissive outbound security group rule creation conditional: `var.custom_outbound_security_group` `type = bool`. Historic behaviour is followed by default
